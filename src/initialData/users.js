@@ -15,7 +15,7 @@ const users = [
     hashedPassword: '$2a$10$6jRo1RG0ikkIkhFZe5xKQ.bP6tthBxClNjJL7rqQ6JUmQiMmecDp2',
     privileges: 'USER',
     isCaptain: true,
-    coins: 25
+    coins: 10
   },
   {
     username: 'DontKSmebro',
@@ -23,7 +23,7 @@ const users = [
     hashedPassword: '$2a$10$6jRo1RG0ikkIkhFZe5xKQ.bP6tthBxClNjJL7rqQ6JUmQiMmecDp2',
     privileges: 'USER',
     isCaptain: true,
-    coins: 25
+    coins: 19
   },
   {
     username: 'exorr',
@@ -31,7 +31,7 @@ const users = [
     hashedPassword: '$2a$10$6jRo1RG0ikkIkhFZe5xKQ.bP6tthBxClNjJL7rqQ6JUmQiMmecDp2',
     privileges: 'USER',
     isCaptain: true,
-    coins: 25
+    coins: 18
   },
   {
     username: 'Motta',
@@ -39,7 +39,7 @@ const users = [
     hashedPassword: '$2a$10$6jRo1RG0ikkIkhFZe5xKQ.bP6tthBxClNjJL7rqQ6JUmQiMmecDp2',
     privileges: 'USER',
     isCaptain: true,
-    coins: 25
+    coins: 14
   },
   {
     username: 'ZerGirl',
@@ -47,7 +47,7 @@ const users = [
     hashedPassword: '$2a$10$6jRo1RG0ikkIkhFZe5xKQ.bP6tthBxClNjJL7rqQ6JUmQiMmecDp2',
     privileges: 'USER',
     isCaptain: true,
-    coins: 25
+    coins: 20
   },
   {
     username: 'Sevh',
@@ -55,7 +55,7 @@ const users = [
     hashedPassword: '$2a$10$6jRo1RG0ikkIkhFZe5xKQ.bP6tthBxClNjJL7rqQ6JUmQiMmecDp2',
     privileges: 'USER',
     isCaptain: true,
-    coins: 25
+    coins: 19
   }
 ];
 
