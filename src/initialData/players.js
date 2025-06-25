@@ -53,7 +53,6 @@ const players = [
   {"auctionId":1,"name":"Pablo","battleTag":"Pablo#11319","nationality":"BR","primaryRole":"TANK","secondaryRole":"DPS","playWithAnotherLanguage":true},
   {"auctionId":1,"name":"Spawn","battleTag":"Spawn1221#1508","nationality":"CL","primaryRole":"DPS","secondaryRole":"HEALER","playWithAnotherLanguage":true},
   {"auctionId":1,"name":"Sunstrider","battleTag":"RavenLord#12414","nationality":"BR","primaryRole":"DPS","secondaryRole":"HEALER","playWithAnotherLanguage":false},
-  {"auctionId":1,"name":"Cheroilis","battleTag":"Cheroilis#1139","nationality":"BR","primaryRole":"FLEX","secondaryRole":"SOLO","playWithAnotherLanguage":false}
 ]
 
 module.exports = { players };
