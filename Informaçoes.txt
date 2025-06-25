@@ -1,0 +1,84 @@
+Jogadores: 50-65
+Valor inicial: 0
+Capitães: 8-10
+Funcionalidades: 
+  Spectador
+  Fundo diferente para campeões ou especiais
+
+
+Leilão principal
+Leilão reserva
+Leilão em pausa
+
+Leilão separado em 2 momentos
+
+Criar botão para Começar o Leilão da reserva:
+Tirar todos pontos e colocar 5 pontos para cada jogador
+
+Admin Funcionalidades:
+  Adicionar Jogador Na lista de Jogadores compráveis
+  Remover Jogador Na lista de Jogadores compráveis
+  Adicionar Capitão 
+    Se vc quiser adicionar um jogador atual como capitão,
+    remover o jogador e depois adicionar como capitao
+  Remover Capitão
+  Setar quantidade de moedas de Capitao
+  Setar quantidade de moedas de Jogador
+  Colocar jogador onde quiser
+
+  Terminar Leilão
+  Começar Leilão
+  Começar Leilão da reserva
+    Terminar Leilão normal antes
+  Resetar Leilão (Voltar para o estado de quando começou)
+
+Histórico: 
+  Manter histórico de todas mudanças 
+    Compras de playeres
+    Intervenções do admin
+
+Final do Leilão:
+
+jeito que os comandos serao recebidos pelo servidor pelo admin:
+
+
+  {
+
+    "type": "addPlayer",
+
+    "BattleTag": "AbelAnimal#1491",
+    "Nationality": "Español",
+    "Languages": "Español",
+    "Primary Role": "Solo Laner",
+    "Secondary Role": "Asesino Flex",
+    "Confirmed": "FALSE"
+
+  }
+
+  {
+    "type": "removePlayer",
+  }
+
+  {
+    "type": "addCaptain",
+    "BattleTag": "AbelAnimal#1491",
+    "Nationality": "Español",
+    "Languages": "Español",
+    "Primary Role": "Solo Laner",
+    "Secondary Role": "Asesino Flex",
+    "Confirmed": "FALSE"
+  }
+
+
+  {
+    "type": "startAuction",
+  }
+
+
+.env: 
+DB_NAME=test_db3
+DB_USER=derenash
+DB_PASSWORD=dere
+DB_HOST=localhost
+JWT_SECRET=segredo
+CORS_ORIGIN=*
