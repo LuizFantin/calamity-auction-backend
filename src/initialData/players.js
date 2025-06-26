@@ -49,7 +49,6 @@ const players = [
   {"auctionId":1,"name":"Sevh","battleTag":"Sevh#11833","nationality":"CL","primaryRole":"FLEX","secondaryRole":"DPS","playWithAnotherLanguage":true},
   {"auctionId":1,"name":"Roger","battleTag":"WHRoger#2994","nationality":"PE","primaryRole":"DPS","secondaryRole":"FLEX","playWithAnotherLanguage":true},
   {"auctionId":1,"name":"KohanHanin","battleTag":"KohanHanin#1278","nationality":"BR","primaryRole":"FLEX","secondaryRole":"DPS","playWithAnotherLanguage":true},
-  {"auctionId":1,"name":"Acaz","battleTag":"Acaz#11118","nationality":"BR","primaryRole":"TANK","secondaryRole":"SOLO","playWithAnotherLanguage":true},
   {"auctionId":1,"name":"Pablo","battleTag":"Pablo#11319","nationality":"BR","primaryRole":"TANK","secondaryRole":"DPS","playWithAnotherLanguage":true},
   {"auctionId":1,"name":"Spawn","battleTag":"Spawn1221#1508","nationality":"CL","primaryRole":"DPS","secondaryRole":"HEALER","playWithAnotherLanguage":true},
   {"auctionId":1,"name":"Sunstrider","isSubCaptain":true,"ownerUsername": "Motta","battleTag":"RavenLord#12414","nationality":"BR","primaryRole":"DPS","secondaryRole":"HEALER","playWithAnotherLanguage":false},
