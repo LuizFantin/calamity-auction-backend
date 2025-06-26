@@ -31,11 +31,7 @@ async function initializeData() {
     console.log('Initial auctions created');
   }
 
-  const playerCount = await Player.count();
-  if (playerCount === 0) {
-    await Player.bulkCreate(players);
-    console.log('Initial players created');
-  }
+ 
 
   const userCount = await User.count();
   if (userCount === 0) {
@@ -46,15 +42,26 @@ async function initializeData() {
       } else {
         console.log(userData.username, 'does not have a password');
       }
-      if (userData.battleTag && userData.isCaptain === true) {
-        // find player and edit it 
-        const player = await Player.findOne({ where: { battleTag: userData.battleTag } });
-        player.isCaptainUsername = userData.username;
-        await player.save();
-      }
+      
     }
     console.log('Initial users created');
   }
+
+  const playerCount = await Player.count();
+  if (playerCount === 0) {
+    await Player.bulkCreate(players);
+    console.log('Initial players created');
+  }
+
+
+  for(let userData of users){
+    if (userData.battleTag && userData.isCaptain === true) {
+          // find player and edit it 
+          const player = await Player.findOne({ where: { battleTag: userData.battleTag } });
+          player.isCaptainUsername = userData.username;
+          await player.save();
+        }
+    }
 }
 
 module.exports = { initializeData, resetDatabase }; 

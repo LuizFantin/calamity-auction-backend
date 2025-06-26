@@ -56,6 +56,11 @@ const Player = sequelize.define('Player', {
     allowNull: false,
     defaultValue: true
   },
+  isSubCaptain: {
+    type: DataTypes.BOOLEAN,
+    allowNull: false,
+    defaultValue: false
+  },
   price: {
     type: DataTypes.INTEGER,
     allowNull: false,
